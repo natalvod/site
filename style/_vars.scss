@@ -1,0 +1,17 @@
+$color-text: #ffffff;
+$width-site: 1200px;
+$gap: 32px;
+
+@mixin top() {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+@mixin cart_button() {
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+
