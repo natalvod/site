@@ -1,28 +1,10 @@
 @charset "UTF-8";
-@-webkit-keyframes cartButton2 {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.07);
-  }
-}
 @keyframes cartButton2 {
   0% {
     transform: scale(1);
   }
   100% {
     transform: scale(1.07);
-  }
-}
-@-webkit-keyframes cartButton1 {
-  0% {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
   }
 }
 @keyframes cartButton1 {
@@ -96,10 +78,6 @@ header {
 }
 
 .header_input::-moz-placeholder {
-  color: #ffffff;
-}
-
-.header_input:-ms-input-placeholder {
   color: #ffffff;
 }
 
@@ -230,8 +208,7 @@ header {
   line-height: 24px;
   font-style: normal;
   font-weight: 400;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   color: #ffffff;
 }
 .top_link:hover {
@@ -362,8 +339,7 @@ header {
 }
 
 .product_price_sale {
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
   color: #888888;
 }
 
@@ -378,8 +354,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   color: #000000;
 }
 .link-go:hover {
@@ -463,10 +438,6 @@ header {
 }
 
 .form_email::-moz-placeholder {
-  color: #c4c4c4;
-}
-
-.form_email:-ms-input-placeholder {
   color: #c4c4c4;
 }
 
@@ -748,13 +719,6 @@ header {
   align-items: center;
   color: #000000;
 }
-.cart_form-imput:-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  align-items: center;
-  color: #000000;
-}
 .cart_form-imput::placeholder {
   font-weight: 400;
   font-size: 14px;
@@ -785,15 +749,13 @@ header {
   width: 290px;
   height: 41px;
   box-sizing: border-box;
-  -webkit-animation: cartButton1 1s ease 0.5s 1 normal none;
-          animation: cartButton1 1s ease 0.5s 1 normal none;
+  animation: cartButton1 1s ease 0.5s 1 normal none;
   background-color: transparent;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
 }
 .cart_button-form:hover {
-  -webkit-animation: cartButton2 1s ease 0s 1 normal both;
-          animation: cartButton2 1s ease 0s 1 normal both;
+  animation: cartButton2 1s ease 0s 1 normal both;
   color: white;
   background-color: #000000;
 }
